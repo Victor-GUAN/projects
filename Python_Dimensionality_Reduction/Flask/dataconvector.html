@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="jquery.min.js"></script>
+<script>
+    mydata = {"msg": datafolder + '/' + d.img};          				// data tranmission
+    $.getJSON('http://localhost:80/Flask/dataconvert', {              	// url from Flask
+            "mykey": JSON.stringify(mydata)     						// stringify data with keyword
+        }, function(data) {                    							// data returned from Flask
+            console.log(data);
+            console.log(data.result);
+            $( "#result" ).text(data.result);
+        }
+    );
+	
+	/*return	data.result['msg']*/
+</script>
+
+</body>
+</html>

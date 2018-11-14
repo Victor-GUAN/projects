@@ -1,0 +1,1 @@
+This document contains several TP excercises for the machine learning courses in Ecole Centrale Paris.

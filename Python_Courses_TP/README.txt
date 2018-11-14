@@ -1,0 +1,1 @@
+This document contains several exercises that I've done for the astronomy courses in python.

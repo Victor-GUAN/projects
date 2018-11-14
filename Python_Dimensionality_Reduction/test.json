@@ -1,0 +1,97 @@
+{
+	"date": "Tue Feb 14 11:21:57 2017", 
+	"graphs": {
+		"_ALL": {
+			"nodes": {
+				"5FB8422438CE57B3CF54C8632BADC141": {"type": ["carPart"], "name": "node_705", "img": "DerivedObj/5FB/5FB8422438CE57B3CF54C8632BADC141/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 100]}},
+				"BA68446E63AA50E1B8456D3AAB3A7BC3": {"type": ["carPart"], "name": "node_1414", "img": "DerivedObj/BA6/BA68446E63AA50E1B8456D3AAB3A7BC3/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 200]}},
+				"01E24B0EDB43CEFDE57FD6ED7736FD8D": {"type": ["carPart"], "name": "node_9", "img": "DerivedObj/01E/01E24B0EDB43CEFDE57FD6ED7736FD8D/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 300]}},
+				"F30E6D6BC250E03B138493DCD0C82219": {"type": ["carPart"], "name": "node_1928", "img": "DerivedObj/F30/F30E6D6BC250E03B138493DCD0C82219/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 400]}}, 
+				"0D85EC1FF152F364809D43A051AD8646": {"type": ["carPart"], "name": "node_83", "img": "DerivedObj/0D8/0D85EC1FF152F364809D43A051AD8646/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 500]}},
+				"DB7B5B5B743081292108E7040120F28D": {"type": ["carPart"], "name": "node_1709", "img": "DerivedObj/DB7/DB7B5B5B743081292108E7040120F28D/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 600]}}, 
+				"FA86F269EEB36520008DC4469E45D8D9": {"type": ["carPart"], "name": "node_2014", "img": "DerivedObj/FA8/FA86F269EEB36520008DC4469E45D8D9/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 700]}}, 
+				"C3067AC92F3E62C152B5E624AF5B3EE8": {"type": ["carPart"], "name": "node_1475", "img": "DerivedObj/C30/C3067AC92F3E62C152B5E624AF5B3EE8/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 800]}}, 
+				"ED64B78CC42C2EC9EC0892BA0160D201": {"type": ["carPart"], "name": "node_1878", "img": "DerivedObj/ED6/ED64B78CC42C2EC9EC0892BA0160D201/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 900]}}, 
+				"2C9410B7B4A64677C67CB9826FBD33D6": {"type": ["carPart"], "name": "node_341", "img": "DerivedObj/2C9/2C9410B7B4A64677C67CB9826FBD33D6/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [200, 100]}}, 
+				"612251646008CB88B322B635ABCCC484": {"type": ["carPart"], "name": "node_716", "img": "DerivedObj/612/612251646008CB88B322B635ABCCC484/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [300, 100]}}, 
+				"E001964509819204898D230CC2BBA7AF": {"type": ["carPart"], "name": "node_1731", "img": "DerivedObj/E00/E001964509819204898D230CC2BBA7AF/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [400, 100]}}, 
+				"902A3EA2E44AFC6F5FF44C7992B4E873": {"type": ["carPart"], "name": "node_1133", "img": "DerivedObj/902/902A3EA2E44AFC6F5FF44C7992B4E873/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [500, 100]}}, 
+				"77886DA3440E4006B33A97074F2772C3": {"type": ["carPart"], "name": "node_942", "img": "DerivedObj/778/77886DA3440E4006B33A97074F2772C3/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [600, 100]}}, 
+				"EC52408F6BA0CE0B280CAE77C564B54C": {"type": ["carPart"], "name": "node_1856", "img": "DerivedObj/EC5/EC52408F6BA0CE0B280CAE77C564B54C/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [700, 100]}}, 
+				"59794B5CDE66A8F7679BC45062BE5FC9": {"type": ["carPart"], "name": "node_669", "img": "DerivedObj/597/59794B5CDE66A8F7679BC45062BE5FC9/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [800, 100]}}, 
+				"F8A31DA140499715AB00EA548EFB70DC": {"type": ["carPart"], "name": "node_2000", "img": "DerivedObj/F8A/F8A31DA140499715AB00EA548EFB70DC/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [900, 100]}}, 
+				"FAFBB8358BAB81E63B9AF21B997F369D": {"type": ["carPart"], "name": "node_2026", "img": "DerivedObj/FAF/FAFBB8358BAB81E63B9AF21B997F369D/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [200, 200]}}, 
+				"106DA2E497CC19FFC0811BCA008D2EB5": {"type": ["carPart"], "name": "node_107", "img": "DerivedObj/106/106DA2E497CC19FFC0811BCA008D2EB5/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 300]}}, 
+				"8D13324C694EF79958BE237543132222": {"type": ["carPart"], "name": "node_1114", "img": "DerivedObj/8D1/8D13324C694EF79958BE237543132222/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [100, 500]}}, 
+				"51C83C385A47F7BA564A469BF5D8ED57": {"type": ["carPart"], "name": "node_598", "img": "DerivedObj/51C/51C83C385A47F7BA564A469BF5D8ED57/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [400, 600]}}, 
+				"D753A353E49442844C72DCC9FD9ABBC8": {"type": ["carPart"], "name": "node_1682", "img": "DerivedObj/D75/D753A353E49442844C72DCC9FD9ABBC8/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [400, 800]}}, 
+				"4A939BBD0BC81A7545EF46F9CB58AA0D": {"type": ["carPart"], "name": "node_558", "img": "DerivedObj/4A9/4A939BBD0BC81A7545EF46F9CB58AA0D/small_icon/snap_t0045_p0036.png", "coord": {"tSNE": [600, 300]}}
+				}, 
+			"dataFolder": "//dell1767dsy/Team/Graph Visualization Tool/data/206", 
+			"filters": ["type", "linkType"]
+			},
+
+		"iter0": {
+			"nodes": {
+				"5FB8422438CE57B3CF54C8632BADC141": { "coord": {"tSNE": [100, 100]}},
+				"BA68446E63AA50E1B8456D3AAB3A7BC3": { "coord": {"tSNE": [100, 200]}},
+				"01E24B0EDB43CEFDE57FD6ED7736FD8D": { "coord": {"tSNE": [100, 300]}},
+				"F30E6D6BC250E03B138493DCD0C82219": { "coord": {"tSNE": [100, 400]}}, 
+				"0D85EC1FF152F364809D43A051AD8646": { "coord": {"tSNE": [100, 500]}},
+				"DB7B5B5B743081292108E7040120F28D": { "coord": {"tSNE": [100, 600]}}, 
+				"FA86F269EEB36520008DC4469E45D8D9": { "coord": {"tSNE": [100, 700]}}, 
+				"C3067AC92F3E62C152B5E624AF5B3EE8": { "coord": {"tSNE": [100, 800]}}, 
+				"ED64B78CC42C2EC9EC0892BA0160D201": { "coord": {"tSNE": [100, 900]}}, 
+				"2C9410B7B4A64677C67CB9826FBD33D6": { "coord": {"tSNE": [200, 100]}}, 
+				"612251646008CB88B322B635ABCCC484": { "coord": {"tSNE": [300, 100]}}, 
+				"E001964509819204898D230CC2BBA7AF": { "coord": {"tSNE": [400, 100]}}, 
+				"902A3EA2E44AFC6F5FF44C7992B4E873": { "coord": {"tSNE": [500, 100]}}, 
+				"77886DA3440E4006B33A97074F2772C3": { "coord": {"tSNE": [600, 100]}}, 
+				"EC52408F6BA0CE0B280CAE77C564B54C": { "coord": {"tSNE": [700, 100]}}, 
+				"59794B5CDE66A8F7679BC45062BE5FC9": { "coord": {"tSNE": [800, 100]}}, 
+				"F8A31DA140499715AB00EA548EFB70DC": { "coord": {"tSNE": [900, 100]}}, 
+				"FAFBB8358BAB81E63B9AF21B997F369D": { "coord": {"tSNE": [200, 200]}}, 
+				"106DA2E497CC19FFC0811BCA008D2EB5": { "coord": {"tSNE": [100, 300]}}, 
+				"8D13324C694EF79958BE237543132222": { "coord": {"tSNE": [100, 500]}}, 
+				"51C83C385A47F7BA564A469BF5D8ED57": { "coord": {"tSNE": [400, 600]}}, 
+				"D753A353E49442844C72DCC9FD9ABBC8": { "coord": {"tSNE": [400, 800]}}, 
+				"4A939BBD0BC81A7545EF46F9CB58AA0D": { "coord": {"tSNE": [600, 300]}}
+				}, 
+			"dataFolder": "//dell1767dsy/Team/Graph Visualization Tool/data/206", 
+
+			"filters": ["type", "linkType"]
+			},
+			
+		"iter1": {
+			"nodes": {
+				"5FB8422438CE57B3CF54C8632BADC141": { "coord": {"tSNE": [150, 200]}},
+				"BA68446E63AA50E1B8456D3AAB3A7BC3": { "coord": {"tSNE": [150, 300]}},
+				"01E24B0EDB43CEFDE57FD6ED7736FD8D": { "coord": {"tSNE": [150, 300]}},
+				"F30E6D6BC250E03B138493DCD0C82219": { "coord": {"tSNE": [150, 500]}}, 
+				"0D85EC1FF152F364809D43A051AD8646": { "coord": {"tSNE": [100, 60]}},
+				"DB7B5B5B743081292108E7040120F28D": { "coord": {"tSNE": [10, 700]}}, 
+				"FA86F269EEB36520008DC4469E45D8D9": { "coord": {"tSNE": [100, 800]}}, 
+				"C3067AC92F3E62C152B5E624AF5B3EE8": { "coord": {"tSNE": [100, 90]}}, 
+				"ED64B78CC42C2EC9EC0892BA0160D201": { "coord": {"tSNE": [100, 1000]}}, 
+				"2C9410B7B4A64677C67CB9826FBD33D6": { "coord": {"tSNE": [200, 200]}}, 
+				"612251646008CB88B322B635ABCCC484": { "coord": {"tSNE": [300, 20]}}, 
+				"E001964509819204898D230CC2BBA7AF": { "coord": {"tSNE": [40, 200]}}, 
+				"902A3EA2E44AFC6F5FF44C7992B4E873": { "coord": {"tSNE": [500, 200]}}, 
+				"77886DA3440E4006B33A97074F2772C3": { "coord": {"tSNE": [60, 200]}}, 
+				"EC52408F6BA0CE0B280CAE77C564B54C": { "coord": {"tSNE": [700, 20]}}, 
+				"59794B5CDE66A8F7679BC45062BE5FC9": { "coord": {"tSNE": [800, 20]}}, 
+				"F8A31DA140499715AB00EA548EFB70DC": { "coord": {"tSNE": [90, 200]}}, 
+				"FAFBB8358BAB81E63B9AF21B997F369D": { "coord": {"tSNE": [20, 300]}}, 
+				"106DA2E497CC19FFC0811BCA008D2EB5": { "coord": {"tSNE": [100, 400]}}, 
+				"8D13324C694EF79958BE237543132222": { "coord": {"tSNE": [100, 60]}}, 
+				"51C83C385A47F7BA564A469BF5D8ED57": { "coord": {"tSNE": [400, 70]}}, 
+				"D753A353E49442844C72DCC9FD9ABBC8": { "coord": {"tSNE": [400, 90]}}, 
+				"4A939BBD0BC81A7545EF46F9CB58AA0D": { "coord": {"tSNE": [60, 400]}}
+				}, 
+			"dataFolder": "//dell1767dsy/Team/Graph Visualization Tool/data/206", 
+            
+			"filters": ["type", "linkType"]
+			}
+	}
+			, "version": 0.9
+}

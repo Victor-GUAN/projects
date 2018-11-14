@@ -1,0 +1,4 @@
+categorical variable(s):
+	category  Category of the article
+	weekday
+

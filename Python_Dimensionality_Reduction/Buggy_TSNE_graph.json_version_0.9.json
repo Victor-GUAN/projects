@@ -1,0 +1,1841 @@
+{
+    "date": "Thursday Feb 16 11:03:25 2017", 
+    "graphs": {
+        "_ALL": {
+            "dataFolder": "E:/Graph Visualization Tool/data", 
+            "filters": [
+                "type", 
+                "linkType"
+            ], 
+            "nodes": {
+                "02678F7A6D08AC6B59561F9516EDCB80": {
+                    "coord": {
+                        "tSNE": [
+                            -316.3082871428897, 
+                            -1541.0903347349376
+                        ]
+                    }, 
+                    "img": "Buggy/026/02678F7A6D08AC6B59561F9516EDCB80/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "026"
+                }, 
+                "03DEF99706D6EDEC9A91D87CFCCA3B82": {
+                    "coord": {
+                        "tSNE": [
+                            -1276.7079704763846, 
+                            1185.298273499024
+                        ]
+                    }, 
+                    "img": "Buggy/03D/03DEF99706D6EDEC9A91D87CFCCA3B82/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "03D"
+                }, 
+                "0426FC71AD452A004E0CB8449C3DC2D6": {
+                    "coord": {
+                        "tSNE": [
+                            604.1801026176685, 
+                            -800.0830728648003
+                        ]
+                    }, 
+                    "img": "Buggy/042/0426FC71AD452A004E0CB8449C3DC2D6/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "042"
+                }, 
+                "0753183783AA74DB1B8E6078A315D017": {
+                    "coord": {
+                        "tSNE": [
+                            709.207722250482, 
+                            -887.6869270081546
+                        ]
+                    }, 
+                    "img": "Buggy/075/0753183783AA74DB1B8E6078A315D017/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "075"
+                }, 
+                "0845101144D1AA76AABEAC7691415607": {
+                    "coord": {
+                        "tSNE": [
+                            -339.0321430417242, 
+                            1429.794710331883
+                        ]
+                    }, 
+                    "img": "Buggy/084/0845101144D1AA76AABEAC7691415607/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "084"
+                }, 
+                "091AFEA4138DA86077AB3A02175A8B22": {
+                    "coord": {
+                        "tSNE": [
+                            968.3391415299345, 
+                            -1215.7598703710987
+                        ]
+                    }, 
+                    "img": "Buggy/091/091AFEA4138DA86077AB3A02175A8B22/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "091"
+                }, 
+                "0BBE07D2C2D908A891C6CCF33FEF603A": {
+                    "coord": {
+                        "tSNE": [
+                            -2.1761937845201915, 
+                            -1497.811747010279
+                        ]
+                    }, 
+                    "img": "Buggy/0BB/0BBE07D2C2D908A891C6CCF33FEF603A/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "0BB"
+                }, 
+                "0BF4198F565A905988C618C840EFC182": {
+                    "coord": {
+                        "tSNE": [
+                            629.1877939275498, 
+                            -737.2803995000008
+                        ]
+                    }, 
+                    "img": "Buggy/0BF/0BF4198F565A905988C618C840EFC182/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "0BF"
+                }, 
+                "0D39207AD1D5144CC00C4486C89FF27D": {
+                    "coord": {
+                        "tSNE": [
+                            -268.54992874440455, 
+                            -889.0217494971802
+                        ]
+                    }, 
+                    "img": "Buggy/0D3/0D39207AD1D5144CC00C4486C89FF27D/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "0D3"
+                }, 
+                "0DC1E459B733B9A8CC8011B6F364607B": {
+                    "coord": {
+                        "tSNE": [
+                            -1255.621742857595, 
+                            414.9545225731275
+                        ]
+                    }, 
+                    "img": "Buggy/0DC/0DC1E459B733B9A8CC8011B6F364607B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "0DC"
+                }, 
+                "0EE63E193B08814FD08F3B3C4CFD8DD2": {
+                    "coord": {
+                        "tSNE": [
+                            -1691.601368881517, 
+                            923.0891234337015
+                        ]
+                    }, 
+                    "img": "Buggy/0EE/0EE63E193B08814FD08F3B3C4CFD8DD2/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "0EE"
+                }, 
+                "10208BF6A6736C467A2B3F1FE716140A": {
+                    "coord": {
+                        "tSNE": [
+                            -941.4641448825273, 
+                            -688.0996248352972
+                        ]
+                    }, 
+                    "img": "Buggy/102/10208BF6A6736C467A2B3F1FE716140A/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "102"
+                }, 
+                "12E24892FEC014C52068A575A51D33BE": {
+                    "coord": {
+                        "tSNE": [
+                            471.51137448632403, 
+                            -284.32997377247557
+                        ]
+                    }, 
+                    "img": "Buggy/12E/12E24892FEC014C52068A575A51D33BE/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "12E"
+                }, 
+                "1431553681EB140A9ADDD532FCF76D86": {
+                    "coord": {
+                        "tSNE": [
+                            913.2597790369599, 
+                            1362.7733572714171
+                        ]
+                    }, 
+                    "img": "Buggy/143/1431553681EB140A9ADDD532FCF76D86/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "143"
+                }, 
+                "158F17C2D954AAA6FA7BD6A7FAAF92C5": {
+                    "coord": {
+                        "tSNE": [
+                            873.1260276035083, 
+                            -1199.360180258204
+                        ]
+                    }, 
+                    "img": "Buggy/158/158F17C2D954AAA6FA7BD6A7FAAF92C5/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "158"
+                }, 
+                "161B9938F183CEE8F9289146923F281C": {
+                    "coord": {
+                        "tSNE": [
+                            -929.9892254225844, 
+                            -879.4752281608902
+                        ]
+                    }, 
+                    "img": "Buggy/161/161B9938F183CEE8F9289146923F281C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "161"
+                }, 
+                "176130877F912A6725E492DE2C4286F3": {
+                    "coord": {
+                        "tSNE": [
+                            614.438026310142, 
+                            -1422.4591609276372
+                        ]
+                    }, 
+                    "img": "Buggy/176/176130877F912A6725E492DE2C4286F3/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "176"
+                }, 
+                "18DD005A3EC95E4803FE37468F9C1FD4": {
+                    "coord": {
+                        "tSNE": [
+                            595.5603163380501, 
+                            -1434.3374371956595
+                        ]
+                    }, 
+                    "img": "Buggy/18D/18DD005A3EC95E4803FE37468F9C1FD4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "18D"
+                }, 
+                "1B612A17FDBE454658C1A17BB182AEF0": {
+                    "coord": {
+                        "tSNE": [
+                            160.39668089601602, 
+                            545.240585075368
+                        ]
+                    }, 
+                    "img": "Buggy/1B6/1B612A17FDBE454658C1A17BB182AEF0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "1B6"
+                }, 
+                "1D7A9E08FBD6DD8378EE782BB3BC8A9C": {
+                    "coord": {
+                        "tSNE": [
+                            -1586.915153803607, 
+                            123.00598842313882
+                        ]
+                    }, 
+                    "img": "Buggy/1D7/1D7A9E08FBD6DD8378EE782BB3BC8A9C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "1D7"
+                }, 
+                "20D399A326DA239F44EA05E0C58D3F79": {
+                    "coord": {
+                        "tSNE": [
+                            -1002.0196839604213, 
+                            830.8814288167333
+                        ]
+                    }, 
+                    "img": "Buggy/20D/20D399A326DA239F44EA05E0C58D3F79/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "20D"
+                }, 
+                "211C1742D124056719D0BA24051ADA7D": {
+                    "coord": {
+                        "tSNE": [
+                            -1290.7589796369202, 
+                            1188.7736821300764
+                        ]
+                    }, 
+                    "img": "Buggy/211/211C1742D124056719D0BA24051ADA7D/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "211"
+                }, 
+                "219CDE9A236DDAE962FC0B3030136479": {
+                    "coord": {
+                        "tSNE": [
+                            -771.3281470037034, 
+                            609.3275445319208
+                        ]
+                    }, 
+                    "img": "Buggy/219/219CDE9A236DDAE962FC0B3030136479/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "219"
+                }, 
+                "242E98240B26D30D9A9B05EF55E9AA93": {
+                    "coord": {
+                        "tSNE": [
+                            -786.1987005512547, 
+                            -923.5097641851885
+                        ]
+                    }, 
+                    "img": "Buggy/242/242E98240B26D30D9A9B05EF55E9AA93/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "242"
+                }, 
+                "244AF9779907700350D340A3E06B93ED": {
+                    "coord": {
+                        "tSNE": [
+                            -1691.9981706425322, 
+                            923.4371214747111
+                        ]
+                    }, 
+                    "img": "Buggy/244/244AF9779907700350D340A3E06B93ED/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "244"
+                }, 
+                "24A49919F55CB5AC6CAEB0E14B6138A4": {
+                    "coord": {
+                        "tSNE": [
+                            -731.9548714705212, 
+                            -1124.154198419555
+                        ]
+                    }, 
+                    "img": "Buggy/24A/24A49919F55CB5AC6CAEB0E14B6138A4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "24A"
+                }, 
+                "24A76F34DF8760BF42C57CFD34F4E32C": {
+                    "coord": {
+                        "tSNE": [
+                            -280.9407909285116, 
+                            562.4103239909693
+                        ]
+                    }, 
+                    "img": "Buggy/24A/24A76F34DF8760BF42C57CFD34F4E32C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "24A"
+                }, 
+                "258854E39C0C84D907C1C7712D8E960C": {
+                    "coord": {
+                        "tSNE": [
+                            536.6680779436322, 
+                            -975.1508110926671
+                        ]
+                    }, 
+                    "img": "Buggy/258/258854E39C0C84D907C1C7712D8E960C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "258"
+                }, 
+                "280330BCB0CC95374768FE973722CD72": {
+                    "coord": {
+                        "tSNE": [
+                            -1155.3686395417144, 
+                            1152.2937537304235
+                        ]
+                    }, 
+                    "img": "Buggy/280/280330BCB0CC95374768FE973722CD72/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "280"
+                }, 
+                "286E36790240F98B62296B66B6B26766": {
+                    "coord": {
+                        "tSNE": [
+                            -1047.9209311501672, 
+                            1168.8531565648946
+                        ]
+                    }, 
+                    "img": "Buggy/286/286E36790240F98B62296B66B6B26766/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "286"
+                }, 
+                "288C124B191B8E7A137687630B0A5918": {
+                    "coord": {
+                        "tSNE": [
+                            -924.5320355715099, 
+                            713.1619499162655
+                        ]
+                    }, 
+                    "img": "Buggy/288/288C124B191B8E7A137687630B0A5918/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "288"
+                }, 
+                "2ACE007524CC3B0D0985B74F805B102B": {
+                    "coord": {
+                        "tSNE": [
+                            -788.2300126283969, 
+                            -1191.7950464776245
+                        ]
+                    }, 
+                    "img": "Buggy/2AC/2ACE007524CC3B0D0985B74F805B102B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "2AC"
+                }, 
+                "2C47AF2019F66578721F00F868B4BC50": {
+                    "coord": {
+                        "tSNE": [
+                            -159.28832037962414, 
+                            2966.968436898163
+                        ]
+                    }, 
+                    "img": "Buggy/2C4/2C47AF2019F66578721F00F868B4BC50/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "2C4"
+                }, 
+                "2F110AE55B9AC77CC59640ED51FBCC50": {
+                    "coord": {
+                        "tSNE": [
+                            -1117.2776509250348, 
+                            1148.5137724534331
+                        ]
+                    }, 
+                    "img": "Buggy/2F1/2F110AE55B9AC77CC59640ED51FBCC50/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "2F1"
+                }, 
+                "2F7439417F09C2E21A80ADF38271EFEA": {
+                    "coord": {
+                        "tSNE": [
+                            -467.73754514487314, 
+                            1034.9136652508305
+                        ]
+                    }, 
+                    "img": "Buggy/2F7/2F7439417F09C2E21A80ADF38271EFEA/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "2F7"
+                }, 
+                "304C09EA2610AC5E9002D6D26E67877D": {
+                    "coord": {
+                        "tSNE": [
+                            332.3452446925506, 
+                            436.6047694152171
+                        ]
+                    }, 
+                    "img": "Buggy/304/304C09EA2610AC5E9002D6D26E67877D/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "304"
+                }, 
+                "3461F3221CA396F7502C2E1DF00603B2": {
+                    "coord": {
+                        "tSNE": [
+                            424.72062837207875, 
+                            -1777.4362889835884
+                        ]
+                    }, 
+                    "img": "Buggy/346/3461F3221CA396F7502C2E1DF00603B2/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "346"
+                }, 
+                "38FC830B7AD8A5AEA0615BB29A6B6380": {
+                    "coord": {
+                        "tSNE": [
+                            659.1805585865998, 
+                            -921.8999198155741
+                        ]
+                    }, 
+                    "img": "Buggy/38F/38FC830B7AD8A5AEA0615BB29A6B6380/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "38F"
+                }, 
+                "3E4F44ABAC052C4C03417999D2E111E7": {
+                    "coord": {
+                        "tSNE": [
+                            -1537.8910401069334, 
+                            -676.4496598765038
+                        ]
+                    }, 
+                    "img": "Buggy/3E4/3E4F44ABAC052C4C03417999D2E111E7/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "3E4"
+                }, 
+                "3E889ED19869C2CB065702D45D2670AD": {
+                    "coord": {
+                        "tSNE": [
+                            -1030.2529563213625, 
+                            -846.4600176455612
+                        ]
+                    }, 
+                    "img": "Buggy/3E8/3E889ED19869C2CB065702D45D2670AD/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "3E8"
+                }, 
+                "40DB95816701FD87D98F055584630FED": {
+                    "coord": {
+                        "tSNE": [
+                            158.46069359739627, 
+                            -1392.5628795376713
+                        ]
+                    }, 
+                    "img": "Buggy/40D/40DB95816701FD87D98F055584630FED/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "40D"
+                }, 
+                "40ECCE0B5B9AEC3AF3808656915379C0": {
+                    "coord": {
+                        "tSNE": [
+                            459.84401269210133, 
+                            -1568.5569636864552
+                        ]
+                    }, 
+                    "img": "Buggy/40E/40ECCE0B5B9AEC3AF3808656915379C0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "40E"
+                }, 
+                "41EC267EBB3266548B85247457628808": {
+                    "coord": {
+                        "tSNE": [
+                            288.54679509977757, 
+                            416.64392357482393
+                        ]
+                    }, 
+                    "img": "Buggy/41E/41EC267EBB3266548B85247457628808/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "41E"
+                }, 
+                "428E167445077FAFB8009683998736F0": {
+                    "coord": {
+                        "tSNE": [
+                            321.90334516961354, 
+                            461.5137772969299
+                        ]
+                    }, 
+                    "img": "Buggy/428/428E167445077FAFB8009683998736F0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "428"
+                }, 
+                "446CC36039BDA6D379D5F3EE1741E603": {
+                    "coord": {
+                        "tSNE": [
+                            -82.5826953797905, 
+                            1409.9069725495729
+                        ]
+                    }, 
+                    "img": "Buggy/446/446CC36039BDA6D379D5F3EE1741E603/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "446"
+                }, 
+                "451D4B37CA48F1655BA0681ACE2CA4A4": {
+                    "coord": {
+                        "tSNE": [
+                            -502.2722654701408, 
+                            -322.3423047191322
+                        ]
+                    }, 
+                    "img": "Buggy/451/451D4B37CA48F1655BA0681ACE2CA4A4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "451"
+                }, 
+                "470A33E4CAAFD7EEC9C9C04D2377D217": {
+                    "coord": {
+                        "tSNE": [
+                            -739.5480922858206, 
+                            822.1116837187234
+                        ]
+                    }, 
+                    "img": "Buggy/470/470A33E4CAAFD7EEC9C9C04D2377D217/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "470"
+                }, 
+                "481DC57B3B22D745E0B009AF036775D0": {
+                    "coord": {
+                        "tSNE": [
+                            82.36459580744253, 
+                            910.4474348727438
+                        ]
+                    }, 
+                    "img": "Buggy/481/481DC57B3B22D745E0B009AF036775D0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "481"
+                }, 
+                "49739B461AD35480B4651ADA198DBF7B": {
+                    "coord": {
+                        "tSNE": [
+                            -467.6683196737084, 
+                            1034.993727248972
+                        ]
+                    }, 
+                    "img": "Buggy/497/49739B461AD35480B4651ADA198DBF7B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "497"
+                }, 
+                "49B5CF77DE17DA3696668AEE9B832157": {
+                    "coord": {
+                        "tSNE": [
+                            -528.1070944769175, 
+                            -671.5647481835882
+                        ]
+                    }, 
+                    "img": "Buggy/49B/49B5CF77DE17DA3696668AEE9B832157/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "49B"
+                }, 
+                "4A3150E75F44ED2E95445F0F90D7DE2D": {
+                    "coord": {
+                        "tSNE": [
+                            -759.7538178067081, 
+                            836.3489901383982
+                        ]
+                    }, 
+                    "img": "Buggy/4A3/4A3150E75F44ED2E95445F0F90D7DE2D/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4A3"
+                }, 
+                "4AE6ABAAC9889ABF8B3BC9C0608CBC24": {
+                    "coord": {
+                        "tSNE": [
+                            -1110.1962512906105, 
+                            186.26597989740853
+                        ]
+                    }, 
+                    "img": "Buggy/4AE/4AE6ABAAC9889ABF8B3BC9C0608CBC24/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4AE"
+                }, 
+                "4BAF69C41FC74A872E9CA13EF67C8DB1": {
+                    "coord": {
+                        "tSNE": [
+                            1416.8414923277383, 
+                            -261.3672902102797
+                        ]
+                    }, 
+                    "img": "Buggy/4BA/4BAF69C41FC74A872E9CA13EF67C8DB1/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4BA"
+                }, 
+                "4C3EB44E20FCF84867EE29FE00A80F8E": {
+                    "coord": {
+                        "tSNE": [
+                            -1218.7705177610737, 
+                            -1544.7556899680808
+                        ]
+                    }, 
+                    "img": "Buggy/4C3/4C3EB44E20FCF84867EE29FE00A80F8E/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4C3"
+                }, 
+                "4C567BDF700B8A7F60655824EDF97C00": {
+                    "coord": {
+                        "tSNE": [
+                            1723.2939380064154, 
+                            -409.2249479818357
+                        ]
+                    }, 
+                    "img": "Buggy/4C5/4C567BDF700B8A7F60655824EDF97C00/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4C5"
+                }, 
+                "4D02C7049D6BF45DFE22F68808F38B7B": {
+                    "coord": {
+                        "tSNE": [
+                            614.8279037142673, 
+                            -867.5749148991488
+                        ]
+                    }, 
+                    "img": "Buggy/4D0/4D02C7049D6BF45DFE22F68808F38B7B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4D0"
+                }, 
+                "4D05F2DF7483581E010DE1887663BF24": {
+                    "coord": {
+                        "tSNE": [
+                            -517.8877410257054, 
+                            -479.34095922994084
+                        ]
+                    }, 
+                    "img": "Buggy/4D0/4D05F2DF7483581E010DE1887663BF24/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4D0"
+                }, 
+                "4E7FAF56C131461214CB5E4D65607FBD": {
+                    "coord": {
+                        "tSNE": [
+                            -266.59937891617074, 
+                            3077.0324781437844
+                        ]
+                    }, 
+                    "img": "Buggy/4E7/4E7FAF56C131461214CB5E4D65607FBD/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4E7"
+                }, 
+                "4F2C3E273F66B92A3676A505E5F97015": {
+                    "coord": {
+                        "tSNE": [
+                            -155.0952283820778, 
+                            1414.2102096998503
+                        ]
+                    }, 
+                    "img": "Buggy/4F2/4F2C3E273F66B92A3676A505E5F97015/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4F2"
+                }, 
+                "4F5D009A4011EF3517B682B6B0F4142A": {
+                    "coord": {
+                        "tSNE": [
+                            -1011.8923276631159, 
+                            837.9499015856601
+                        ]
+                    }, 
+                    "img": "Buggy/4F5/4F5D009A4011EF3517B682B6B0F4142A/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4F5"
+                }, 
+                "4F883286E8FBE610A623868B3B96B2A2": {
+                    "coord": {
+                        "tSNE": [
+                            -482.7435224727946, 
+                            749.9787159666655
+                        ]
+                    }, 
+                    "img": "Buggy/4F8/4F883286E8FBE610A623868B3B96B2A2/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "4F8"
+                }, 
+                "502CD9E46ED2D134AF3F60340735D4A8": {
+                    "coord": {
+                        "tSNE": [
+                            845.5735079472232, 
+                            -1198.9224234109072
+                        ]
+                    }, 
+                    "img": "Buggy/502/502CD9E46ED2D134AF3F60340735D4A8/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "502"
+                }, 
+                "51367A79301CC656D14B2824B0CE850C": {
+                    "coord": {
+                        "tSNE": [
+                            -520.3380952101729, 
+                            -267.2666615216595
+                        ]
+                    }, 
+                    "img": "Buggy/513/51367A79301CC656D14B2824B0CE850C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "513"
+                }, 
+                "532820DEFAEED2DE1577C9925C026530": {
+                    "coord": {
+                        "tSNE": [
+                            566.0580553319522, 
+                            -460.2923379972274
+                        ]
+                    }, 
+                    "img": "Buggy/532/532820DEFAEED2DE1577C9925C026530/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "532"
+                }, 
+                "536852AB45ECE0CCCC83AA18F1F436E0": {
+                    "coord": {
+                        "tSNE": [
+                            -335.7767714648642, 
+                            1429.4146906851693
+                        ]
+                    }, 
+                    "img": "Buggy/536/536852AB45ECE0CCCC83AA18F1F436E0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "536"
+                }, 
+                "54B97722D70406EF963FEDE378E74532": {
+                    "coord": {
+                        "tSNE": [
+                            710.5995919979526, 
+                            1297.3439189744158
+                        ]
+                    }, 
+                    "img": "Buggy/54B/54B97722D70406EF963FEDE378E74532/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "54B"
+                }, 
+                "550BA3C1C92A7A7DC125DB735B629229": {
+                    "coord": {
+                        "tSNE": [
+                            -270.0474106148633, 
+                            -868.7630827836554
+                        ]
+                    }, 
+                    "img": "Buggy/550/550BA3C1C92A7A7DC125DB735B629229/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "550"
+                }, 
+                "566441A53CE325892DB04EBB52930EE5": {
+                    "coord": {
+                        "tSNE": [
+                            -824.5141079657733, 
+                            -917.1838837413491
+                        ]
+                    }, 
+                    "img": "Buggy/566/566441A53CE325892DB04EBB52930EE5/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "566"
+                }, 
+                "57672CF44812361DE28C4ECDADF7FAC5": {
+                    "coord": {
+                        "tSNE": [
+                            -625.7277444135344, 
+                            383.29538450470324
+                        ]
+                    }, 
+                    "img": "Buggy/576/57672CF44812361DE28C4ECDADF7FAC5/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "576"
+                }, 
+                "57A48A3853C6183E4655A53CDABA2BB0": {
+                    "coord": {
+                        "tSNE": [
+                            -1537.750672345588, 
+                            -676.6263669672021
+                        ]
+                    }, 
+                    "img": "Buggy/57A/57A48A3853C6183E4655A53CDABA2BB0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "57A"
+                }, 
+                "57BF67D8F3AFB3B5F968446FDADAD22B": {
+                    "coord": {
+                        "tSNE": [
+                            284.2123047225009, 
+                            411.60824315357945
+                        ]
+                    }, 
+                    "img": "Buggy/57B/57BF67D8F3AFB3B5F968446FDADAD22B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "57B"
+                }, 
+                "57FA2714F2633F2B2BE2E9936DC27CF7": {
+                    "coord": {
+                        "tSNE": [
+                            -1076.853779031949, 
+                            685.6716216913815
+                        ]
+                    }, 
+                    "img": "Buggy/57F/57FA2714F2633F2B2BE2E9936DC27CF7/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "57F"
+                }, 
+                "582910CCBE240CA6D4CB6ACB13CECB22": {
+                    "coord": {
+                        "tSNE": [
+                            513.8431216789894, 
+                            -337.20143138973884
+                        ]
+                    }, 
+                    "img": "Buggy/582/582910CCBE240CA6D4CB6ACB13CECB22/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "582"
+                }, 
+                "585559745F8E5CE9C88B91E37C60BD8F": {
+                    "coord": {
+                        "tSNE": [
+                            -1037.5127599175294, 
+                            884.1265850555181
+                        ]
+                    }, 
+                    "img": "Buggy/585/585559745F8E5CE9C88B91E37C60BD8F/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "585"
+                }, 
+                "59545DD8EB7137C0FB63329C41E8F6E1": {
+                    "coord": {
+                        "tSNE": [
+                            1011.004902791459, 
+                            -1124.6366667797695
+                        ]
+                    }, 
+                    "img": "Buggy/595/59545DD8EB7137C0FB63329C41E8F6E1/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "595"
+                }, 
+                "5B3960CCBF088085ADCC34ABBB25F5A9": {
+                    "coord": {
+                        "tSNE": [
+                            145.62679562054166, 
+                            890.8608403255691
+                        ]
+                    }, 
+                    "img": "Buggy/5B3/5B3960CCBF088085ADCC34ABBB25F5A9/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "5B3"
+                }, 
+                "5CBD908D9B7F1ED24C74DD9A07C31C0C": {
+                    "coord": {
+                        "tSNE": [
+                            431.48465976130615, 
+                            -1702.2347950999492
+                        ]
+                    }, 
+                    "img": "Buggy/5CB/5CBD908D9B7F1ED24C74DD9A07C31C0C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "5CB"
+                }, 
+                "5F344997605CAD42D7615005E854149B": {
+                    "coord": {
+                        "tSNE": [
+                            711.0690803147744, 
+                            1318.3541043544392
+                        ]
+                    }, 
+                    "img": "Buggy/5F3/5F344997605CAD42D7615005E854149B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "5F3"
+                }, 
+                "61BD3772D860F90108D4C3782E23BEA1": {
+                    "coord": {
+                        "tSNE": [
+                            -172.60118477914713, 
+                            -844.3591538280854
+                        ]
+                    }, 
+                    "img": "Buggy/61B/61BD3772D860F90108D4C3782E23BEA1/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "61B"
+                }, 
+                "62EFC8C0D0054C1B5CF201EBC815ABEF": {
+                    "coord": {
+                        "tSNE": [
+                            -254.76669713639396, 
+                            367.48351946003993
+                        ]
+                    }, 
+                    "img": "Buggy/62E/62EFC8C0D0054C1B5CF201EBC815ABEF/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "62E"
+                }, 
+                "64B43291627982FDBE0DD7CBB055D5AF": {
+                    "coord": {
+                        "tSNE": [
+                            503.0368110375155, 
+                            -352.49151164442674
+                        ]
+                    }, 
+                    "img": "Buggy/64B/64B43291627982FDBE0DD7CBB055D5AF/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "64B"
+                }, 
+                "6723C8C8BCE3CEF075C6EC89D55C52FB": {
+                    "coord": {
+                        "tSNE": [
+                            426.77110655705394, 
+                            -1770.1012632143343
+                        ]
+                    }, 
+                    "img": "Buggy/672/6723C8C8BCE3CEF075C6EC89D55C52FB/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "672"
+                }, 
+                "684339537FB6FFA9425DEBC3D07EAA12": {
+                    "coord": {
+                        "tSNE": [
+                            1052.6238382338215, 
+                            1320.6060529487302
+                        ]
+                    }, 
+                    "img": "Buggy/684/684339537FB6FFA9425DEBC3D07EAA12/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "684"
+                }, 
+                "68B410BCE4C4D56845716BDE6745DCF4": {
+                    "coord": {
+                        "tSNE": [
+                            -1397.458661601213, 
+                            1095.5177636390924
+                        ]
+                    }, 
+                    "img": "Buggy/68B/68B410BCE4C4D56845716BDE6745DCF4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "68B"
+                }, 
+                "69C552B6363EA24F018C49916F812997": {
+                    "coord": {
+                        "tSNE": [
+                            -443.58476728183217, 
+                            792.655532644678
+                        ]
+                    }, 
+                    "img": "Buggy/69C/69C552B6363EA24F018C49916F812997/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "69C"
+                }, 
+                "6A25CD77D16769D16610A08F6338E854": {
+                    "coord": {
+                        "tSNE": [
+                            -298.1815753648257, 
+                            -1349.1756431888073
+                        ]
+                    }, 
+                    "img": "Buggy/6A2/6A25CD77D16769D16610A08F6338E854/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "6A2"
+                }, 
+                "6A437DB32411E22DB70984E8D05402B0": {
+                    "coord": {
+                        "tSNE": [
+                            174.1479039612884, 
+                            534.5619625819278
+                        ]
+                    }, 
+                    "img": "Buggy/6A4/6A437DB32411E22DB70984E8D05402B0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "6A4"
+                }, 
+                "6B9EAD142D95453A0BFE2D5406E7EFAA": {
+                    "coord": {
+                        "tSNE": [
+                            -1158.0158326481637, 
+                            264.64195519224984
+                        ]
+                    }, 
+                    "img": "Buggy/6B9/6B9EAD142D95453A0BFE2D5406E7EFAA/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "6B9"
+                }, 
+                "6BD2D89E49AD68E857417CE2AF8ADB25": {
+                    "coord": {
+                        "tSNE": [
+                            -852.8396439961451, 
+                            -889.1251165509689
+                        ]
+                    }, 
+                    "img": "Buggy/6BD/6BD2D89E49AD68E857417CE2AF8ADB25/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "6BD"
+                }, 
+                "6F918E52500A6829F71C86303752D5BB": {
+                    "coord": {
+                        "tSNE": [
+                            -1281.114065894834, 
+                            563.9317317864026
+                        ]
+                    }, 
+                    "img": "Buggy/6F9/6F918E52500A6829F71C86303752D5BB/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "6F9"
+                }, 
+                "712F50FCCE347CCDE484E00609C6ABE8": {
+                    "coord": {
+                        "tSNE": [
+                            -541.5885494119829, 
+                            -589.9232832137803
+                        ]
+                    }, 
+                    "img": "Buggy/712/712F50FCCE347CCDE484E00609C6ABE8/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "712"
+                }, 
+                "718716DA7FF59D888F69511737EE241C": {
+                    "coord": {
+                        "tSNE": [
+                            451.7738725883038, 
+                            -1629.7364698318643
+                        ]
+                    }, 
+                    "img": "Buggy/718/718716DA7FF59D888F69511737EE241C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "718"
+                }, 
+                "733BC2DD1E39A62C0DFDE49B99AD1117": {
+                    "coord": {
+                        "tSNE": [
+                            672.8719193260717, 
+                            -1517.9390764525442
+                        ]
+                    }, 
+                    "img": "Buggy/733/733BC2DD1E39A62C0DFDE49B99AD1117/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "733"
+                }, 
+                "745700512647A2BB29EF528443F59C2D": {
+                    "coord": {
+                        "tSNE": [
+                            -321.7101084949634, 
+                            634.2518437059692
+                        ]
+                    }, 
+                    "img": "Buggy/745/745700512647A2BB29EF528443F59C2D/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "745"
+                }, 
+                "7775A8223EFA9C97CE8B91E49DFD3FB6": {
+                    "coord": {
+                        "tSNE": [
+                            155.1501593125644, 
+                            -1293.6956564471184
+                        ]
+                    }, 
+                    "img": "Buggy/777/7775A8223EFA9C97CE8B91E49DFD3FB6/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "777"
+                }, 
+                "7926CCEB479DF6AA7FEFFAF3BFCF3AEC": {
+                    "coord": {
+                        "tSNE": [
+                            -166.47815659416955, 
+                            1415.4429539623436
+                        ]
+                    }, 
+                    "img": "Buggy/792/7926CCEB479DF6AA7FEFFAF3BFCF3AEC/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "792"
+                }, 
+                "7A94D15DDEDFEED573ED5C42AE96354F": {
+                    "coord": {
+                        "tSNE": [
+                            -589.3972739863145, 
+                            -437.4102526611325
+                        ]
+                    }, 
+                    "img": "Buggy/7A9/7A94D15DDEDFEED573ED5C42AE96354F/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "7A9"
+                }, 
+                "7C1097C521BBAF7BD8F6D702A40A25CB": {
+                    "coord": {
+                        "tSNE": [
+                            -916.7357425032485, 
+                            -1009.1919627015322
+                        ]
+                    }, 
+                    "img": "Buggy/7C1/7C1097C521BBAF7BD8F6D702A40A25CB/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "7C1"
+                }, 
+                "7CB2AAFF6CCDB7AD12C85E298745460F": {
+                    "coord": {
+                        "tSNE": [
+                            890.6864503795166, 
+                            1412.620254502256
+                        ]
+                    }, 
+                    "img": "Buggy/7CB/7CB2AAFF6CCDB7AD12C85E298745460F/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "7CB"
+                }, 
+                "7E7453DD6C60F5E662634DB88C407783": {
+                    "coord": {
+                        "tSNE": [
+                            851.0460735622697, 
+                            -1184.3732626330495
+                        ]
+                    }, 
+                    "img": "Buggy/7E7/7E7453DD6C60F5E662634DB88C407783/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "7E7"
+                }, 
+                "80AA9E3ADFF7ECA6E677E0E6B9452C23": {
+                    "coord": {
+                        "tSNE": [
+                            762.8055251047667, 
+                            -999.2567710101067
+                        ]
+                    }, 
+                    "img": "Buggy/80A/80AA9E3ADFF7ECA6E677E0E6B9452C23/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "80A"
+                }, 
+                "838AFCC98639C6608F5DE074E10E5257": {
+                    "coord": {
+                        "tSNE": [
+                            -534.5019991483475, 
+                            -587.4120657708393
+                        ]
+                    }, 
+                    "img": "Buggy/838/838AFCC98639C6608F5DE074E10E5257/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "838"
+                }, 
+                "841AC12B148EBEA7EA5DC8A25D30D0BF": {
+                    "coord": {
+                        "tSNE": [
+                            -1102.502290691708, 
+                            129.94873624798294
+                        ]
+                    }, 
+                    "img": "Buggy/841/841AC12B148EBEA7EA5DC8A25D30D0BF/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "841"
+                }, 
+                "87C674CE7DFBDCD93CE2D2F0DD64105A": {
+                    "coord": {
+                        "tSNE": [
+                            -1294.3399917162308, 
+                            -1494.4721826767163
+                        ]
+                    }, 
+                    "img": "Buggy/87C/87C674CE7DFBDCD93CE2D2F0DD64105A/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "87C"
+                }, 
+                "882ED26F99473CC2897515BDC09FEE43": {
+                    "coord": {
+                        "tSNE": [
+                            -1184.5635155457742, 
+                            747.4856692455292
+                        ]
+                    }, 
+                    "img": "Buggy/882/882ED26F99473CC2897515BDC09FEE43/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "882"
+                }, 
+                "8ACF0E802066C49EE8351B72F5B9E2CA": {
+                    "coord": {
+                        "tSNE": [
+                            -698.7605081669136, 
+                            -1208.4044259013983
+                        ]
+                    }, 
+                    "img": "Buggy/8AC/8ACF0E802066C49EE8351B72F5B9E2CA/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "8AC"
+                }, 
+                "8B5486BF1AB0D9DE886D9E20BF46CEBC": {
+                    "coord": {
+                        "tSNE": [
+                            -101.49242437180119, 
+                            -1339.8588834296527
+                        ]
+                    }, 
+                    "img": "Buggy/8B5/8B5486BF1AB0D9DE886D9E20BF46CEBC/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "8B5"
+                }, 
+                "924E4A88A131768DBC7A3D46F2CA02D9": {
+                    "coord": {
+                        "tSNE": [
+                            -27.702240347488523, 
+                            937.4488165008538
+                        ]
+                    }, 
+                    "img": "Buggy/924/924E4A88A131768DBC7A3D46F2CA02D9/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "924"
+                }, 
+                "925994665A3311C3FDC40443D35C4A14": {
+                    "coord": {
+                        "tSNE": [
+                            823.3374367061266, 
+                            1424.7726248615138
+                        ]
+                    }, 
+                    "img": "Buggy/925/925994665A3311C3FDC40443D35C4A14/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "925"
+                }, 
+                "927497AB3BB29F9347C2F16A8289B1C2": {
+                    "coord": {
+                        "tSNE": [
+                            696.7343918123522, 
+                            -1309.8091664840722
+                        ]
+                    }, 
+                    "img": "Buggy/927/927497AB3BB29F9347C2F16A8289B1C2/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "927"
+                }, 
+                "9299B4D657F32EECAD94700B762F3C44": {
+                    "coord": {
+                        "tSNE": [
+                            220.19803799627215, 
+                            217.13357872279514
+                        ]
+                    }, 
+                    "img": "Buggy/929/9299B4D657F32EECAD94700B762F3C44/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "929"
+                }, 
+                "961692C173066DD21F85E5D5645AFA6C": {
+                    "coord": {
+                        "tSNE": [
+                            424.1073385767688, 
+                            -1779.0128884693295
+                        ]
+                    }, 
+                    "img": "Buggy/961/961692C173066DD21F85E5D5645AFA6C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "961"
+                }, 
+                "96AE6D2A5AD39DA12DF3B66866D668D2": {
+                    "coord": {
+                        "tSNE": [
+                            96.07380994624093, 
+                            -1184.9182300114887
+                        ]
+                    }, 
+                    "img": "Buggy/96A/96AE6D2A5AD39DA12DF3B66866D668D2/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "96A"
+                }, 
+                "9B9B714A96942085BF5EACE8C26B2426": {
+                    "coord": {
+                        "tSNE": [
+                            -287.0126096858981, 
+                            3086.629181340842
+                        ]
+                    }, 
+                    "img": "Buggy/9B9/9B9B714A96942085BF5EACE8C26B2426/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "9B9"
+                }, 
+                "9CDF0E961C60BB839E0D8EBC3D3F5FB5": {
+                    "coord": {
+                        "tSNE": [
+                            -257.2810421777994, 
+                            -275.1170495068782
+                        ]
+                    }, 
+                    "img": "Buggy/9CD/9CDF0E961C60BB839E0D8EBC3D3F5FB5/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "9CD"
+                }, 
+                "9CF2972A309CF5EEB38968953E5247A2": {
+                    "coord": {
+                        "tSNE": [
+                            -977.3077001507348, 
+                            692.3005669279864
+                        ]
+                    }, 
+                    "img": "Buggy/9CF/9CF2972A309CF5EEB38968953E5247A2/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "9CF"
+                }, 
+                "9DB56780D090C0638AA2D22863D61D5B": {
+                    "coord": {
+                        "tSNE": [
+                            -1149.9438437523459, 
+                            325.4643970503856
+                        ]
+                    }, 
+                    "img": "Buggy/9DB/9DB56780D090C0638AA2D22863D61D5B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "9DB"
+                }, 
+                "A14634385FB1CE2B2CE5C1DC59BA7D21": {
+                    "coord": {
+                        "tSNE": [
+                            1123.9474059709996, 
+                            -961.6849229023024
+                        ]
+                    }, 
+                    "img": "Buggy/A14/A14634385FB1CE2B2CE5C1DC59BA7D21/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "A14"
+                }, 
+                "A17042A068DA8D510F566F19DAE9695F": {
+                    "coord": {
+                        "tSNE": [
+                            -249.45119925154833, 
+                            -704.0098766119414
+                        ]
+                    }, 
+                    "img": "Buggy/A17/A17042A068DA8D510F566F19DAE9695F/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "A17"
+                }, 
+                "A2159F6C307269DF940627648D517686": {
+                    "coord": {
+                        "tSNE": [
+                            -1132.7488564631426, 
+                            -1592.1248472326313
+                        ]
+                    }, 
+                    "img": "Buggy/A21/A2159F6C307269DF940627648D517686/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "A21"
+                }, 
+                "A371DE9C7AEB179C6C4FAE8DE1950242": {
+                    "coord": {
+                        "tSNE": [
+                            392.2472529910352, 
+                            379.27855540927527
+                        ]
+                    }, 
+                    "img": "Buggy/A37/A371DE9C7AEB179C6C4FAE8DE1950242/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "A37"
+                }, 
+                "A706F10405F35E807B9F9FEED740E876": {
+                    "coord": {
+                        "tSNE": [
+                            -952.9974755636292, 
+                            542.7702689911255
+                        ]
+                    }, 
+                    "img": "Buggy/A70/A706F10405F35E807B9F9FEED740E876/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "A70"
+                }, 
+                "A8BEADC7DA3423DF819DC579C4289B9A": {
+                    "coord": {
+                        "tSNE": [
+                            837.9122241739778, 
+                            -974.1065419984025
+                        ]
+                    }, 
+                    "img": "Buggy/A8B/A8BEADC7DA3423DF819DC579C4289B9A/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "A8B"
+                }, 
+                "AB3BF37E45D61BE4123BCEE0B1A12F44": {
+                    "coord": {
+                        "tSNE": [
+                            -342.2276583307351, 
+                            775.5624901928468
+                        ]
+                    }, 
+                    "img": "Buggy/AB3/AB3BF37E45D61BE4123BCEE0B1A12F44/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "AB3"
+                }, 
+                "AB71C52B034E18C3762D182BB701521B": {
+                    "coord": {
+                        "tSNE": [
+                            -1285.3428159426053, 
+                            -1529.8135917463783
+                        ]
+                    }, 
+                    "img": "Buggy/AB7/AB71C52B034E18C3762D182BB701521B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "AB7"
+                }, 
+                "B4373E45DC46100709361A5DAC8F71E3": {
+                    "coord": {
+                        "tSNE": [
+                            -277.00161911776354, 
+                            -449.66287343841856
+                        ]
+                    }, 
+                    "img": "Buggy/B43/B4373E45DC46100709361A5DAC8F71E3/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "B43"
+                }, 
+                "B69A6C73DAEC94D53A2C2574DE0C0C12": {
+                    "coord": {
+                        "tSNE": [
+                            -714.8807733469581, 
+                            -1189.2859573554751
+                        ]
+                    }, 
+                    "img": "Buggy/B69/B69A6C73DAEC94D53A2C2574DE0C0C12/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "B69"
+                }, 
+                "B876611E35E1539D9909AEEC5C798547": {
+                    "coord": {
+                        "tSNE": [
+                            164.2632392153558, 
+                            -1390.7295526787684
+                        ]
+                    }, 
+                    "img": "Buggy/B87/B876611E35E1539D9909AEEC5C798547/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "B87"
+                }, 
+                "B98DE5A4CA1EFC4C6D07A3CDAA0019B0": {
+                    "coord": {
+                        "tSNE": [
+                            -786.0270942717481, 
+                            -783.1491073879374
+                        ]
+                    }, 
+                    "img": "Buggy/B98/B98DE5A4CA1EFC4C6D07A3CDAA0019B0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "B98"
+                }, 
+                "BB809DC71614D6F3EA9DA992597205C2": {
+                    "coord": {
+                        "tSNE": [
+                            665.8060565866522, 
+                            -1346.4631018047298
+                        ]
+                    }, 
+                    "img": "Buggy/BB8/BB809DC71614D6F3EA9DA992597205C2/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "BB8"
+                }, 
+                "BCB55B6299BF01BF89A2EB953C9AA79C": {
+                    "coord": {
+                        "tSNE": [
+                            -194.56618727150067, 
+                            3000.193294535062
+                        ]
+                    }, 
+                    "img": "Buggy/BCB/BCB55B6299BF01BF89A2EB953C9AA79C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "BCB"
+                }, 
+                "BFA110F08702A7EEA502254547B9ED27": {
+                    "coord": {
+                        "tSNE": [
+                            -380.25159212940156, 
+                            846.7916021679002
+                        ]
+                    }, 
+                    "img": "Buggy/BFA/BFA110F08702A7EEA502254547B9ED27/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "BFA"
+                }, 
+                "BFB00CFA31228186E587742F64414D1F": {
+                    "coord": {
+                        "tSNE": [
+                            -971.2085925661275, 
+                            454.3522319733878
+                        ]
+                    }, 
+                    "img": "Buggy/BFB/BFB00CFA31228186E587742F64414D1F/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "BFB"
+                }, 
+                "C1D1CF52F152789701F10246CA5564D4": {
+                    "coord": {
+                        "tSNE": [
+                            1389.3599402197624, 
+                            -1259.4668242718687
+                        ]
+                    }, 
+                    "img": "Buggy/C1D/C1D1CF52F152789701F10246CA5564D4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "C1D"
+                }, 
+                "C4178A5641468FBE129021311D816689": {
+                    "coord": {
+                        "tSNE": [
+                            -400.1275313352986, 
+                            -1445.6324960700194
+                        ]
+                    }, 
+                    "img": "Buggy/C41/C4178A5641468FBE129021311D816689/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "C41"
+                }, 
+                "C4992BACCB252E0C64D6EA172F753977": {
+                    "coord": {
+                        "tSNE": [
+                            1389.3459199796898, 
+                            -1259.4561106319131
+                        ]
+                    }, 
+                    "img": "Buggy/C49/C4992BACCB252E0C64D6EA172F753977/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "C49"
+                }, 
+                "C5E975B701D36D1F085C8A2D1B2B9FA5": {
+                    "coord": {
+                        "tSNE": [
+                            57.647330808148375, 
+                            917.1484029373955
+                        ]
+                    }, 
+                    "img": "Buggy/C5E/C5E975B701D36D1F085C8A2D1B2B9FA5/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "C5E"
+                }, 
+                "C7587C5FE2E4544F8610C23E9D823BE4": {
+                    "coord": {
+                        "tSNE": [
+                            1630.0541613888533, 
+                            -396.2639805337731
+                        ]
+                    }, 
+                    "img": "Buggy/C75/C7587C5FE2E4544F8610C23E9D823BE4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "C75"
+                }, 
+                "C87E24A6FD2E48B792C7F142B5F603C7": {
+                    "coord": {
+                        "tSNE": [
+                            -622.0659427260393, 
+                            358.39490584424436
+                        ]
+                    }, 
+                    "img": "Buggy/C87/C87E24A6FD2E48B792C7F142B5F603C7/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "C87"
+                }, 
+                "C9CDBE4CCCA02F7E52550EA489913287": {
+                    "coord": {
+                        "tSNE": [
+                            -1094.1202152663782, 
+                            517.2760941220101
+                        ]
+                    }, 
+                    "img": "Buggy/C9C/C9CDBE4CCCA02F7E52550EA489913287/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "C9C"
+                }, 
+                "CD10BD810FE9C114A241AC68A703346E": {
+                    "coord": {
+                        "tSNE": [
+                            643.8923952926162, 
+                            1139.7380624742605
+                        ]
+                    }, 
+                    "img": "Buggy/CD1/CD10BD810FE9C114A241AC68A703346E/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "CD1"
+                }, 
+                "CDF5D7F44A7FBDC33D6BBF1C6E58AF0B": {
+                    "coord": {
+                        "tSNE": [
+                            -38.10381909051396, 
+                            -568.6065527561389
+                        ]
+                    }, 
+                    "img": "Buggy/CDF/CDF5D7F44A7FBDC33D6BBF1C6E58AF0B/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "CDF"
+                }, 
+                "D10A4A9256BC115DA0D6E0DBCBCAE4F8": {
+                    "coord": {
+                        "tSNE": [
+                            -286.83381921685543, 
+                            692.5246861256014
+                        ]
+                    }, 
+                    "img": "Buggy/D10/D10A4A9256BC115DA0D6E0DBCBCAE4F8/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D10"
+                }, 
+                "D16505C76C253BCD8C3EDE29DF49EB17": {
+                    "coord": {
+                        "tSNE": [
+                            -642.0915283700612, 
+                            478.5769240995832
+                        ]
+                    }, 
+                    "img": "Buggy/D16/D16505C76C253BCD8C3EDE29DF49EB17/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D16"
+                }, 
+                "D22C0E25897EAAF58D712C2C583F213A": {
+                    "coord": {
+                        "tSNE": [
+                            214.146354151779, 
+                            194.8362877875181
+                        ]
+                    }, 
+                    "img": "Buggy/D22/D22C0E25897EAAF58D712C2C583F213A/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D22"
+                }, 
+                "D4626F67E5C19A45A4104A2447D58425": {
+                    "coord": {
+                        "tSNE": [
+                            -1155.488588191622, 
+                            -1561.0846005822625
+                        ]
+                    }, 
+                    "img": "Buggy/D46/D4626F67E5C19A45A4104A2447D58425/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D46"
+                }, 
+                "D4B1D16FB8DCF5494485A283197A8393": {
+                    "coord": {
+                        "tSNE": [
+                            -924.2698406129597, 
+                            713.1284667429874
+                        ]
+                    }, 
+                    "img": "Buggy/D4B/D4B1D16FB8DCF5494485A283197A8393/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D4B"
+                }, 
+                "D5A0DEE415605D30ECFAA9F49658AC63": {
+                    "coord": {
+                        "tSNE": [
+                            542.7743770690205, 
+                            -359.48651298602755
+                        ]
+                    }, 
+                    "img": "Buggy/D5A/D5A0DEE415605D30ECFAA9F49658AC63/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D5A"
+                }, 
+                "D6133B54C9F4D15459427B9F7A42AA38": {
+                    "coord": {
+                        "tSNE": [
+                            -340.2006467448291, 
+                            -343.18804085903105
+                        ]
+                    }, 
+                    "img": "Buggy/D61/D6133B54C9F4D15459427B9F7A42AA38/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D61"
+                }, 
+                "D7988550F11A2E97A4CF44682AD9EEEF": {
+                    "coord": {
+                        "tSNE": [
+                            581.3857103744747, 
+                            -206.38622974276154
+                        ]
+                    }, 
+                    "img": "Buggy/D79/D7988550F11A2E97A4CF44682AD9EEEF/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D79"
+                }, 
+                "D9E49D650D09FEC2897F10EC35D00316": {
+                    "coord": {
+                        "tSNE": [
+                            1451.3917516627007, 
+                            -267.87803774361663
+                        ]
+                    }, 
+                    "img": "Buggy/D9E/D9E49D650D09FEC2897F10EC35D00316/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "D9E"
+                }, 
+                "DD849961792D8B7865F89E8FC986D4C0": {
+                    "coord": {
+                        "tSNE": [
+                            -858.5640813340625, 
+                            673.2639308818605
+                        ]
+                    }, 
+                    "img": "Buggy/DD8/DD849961792D8B7865F89E8FC986D4C0/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "DD8"
+                }, 
+                "E0A0170182DD4A7D9271809550DD3AA4": {
+                    "coord": {
+                        "tSNE": [
+                            1723.2971574744417, 
+                            -409.225615886278
+                        ]
+                    }, 
+                    "img": "Buggy/E0A/E0A0170182DD4A7D9271809550DD3AA4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "E0A"
+                }, 
+                "E788469FAD1920DCC7A739CDEF0C4DF6": {
+                    "coord": {
+                        "tSNE": [
+                            -642.2193680179527, 
+                            -1118.5533253512845
+                        ]
+                    }, 
+                    "img": "Buggy/E78/E788469FAD1920DCC7A739CDEF0C4DF6/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "E78"
+                }, 
+                "ED2EE802CE7DA9E989F615C822DC106D": {
+                    "coord": {
+                        "tSNE": [
+                            695.7753334482941, 
+                            1276.950798812623
+                        ]
+                    }, 
+                    "img": "Buggy/ED2/ED2EE802CE7DA9E989F615C822DC106D/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "ED2"
+                }, 
+                "F065952436524E55DA88D9E2B4F95DC4": {
+                    "coord": {
+                        "tSNE": [
+                            818.0912984592977, 
+                            -818.3232275019208
+                        ]
+                    }, 
+                    "img": "Buggy/F06/F065952436524E55DA88D9E2B4F95DC4/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "F06"
+                }, 
+                "F10EDDB405A5DA49EC71B1E0EF809255": {
+                    "coord": {
+                        "tSNE": [
+                            891.0965797836898, 
+                            -1274.7224592085977
+                        ]
+                    }, 
+                    "img": "Buggy/F10/F10EDDB405A5DA49EC71B1E0EF809255/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "F10"
+                }, 
+                "F1F74D0C050C33D28FF1D0D52BBFC1B3": {
+                    "coord": {
+                        "tSNE": [
+                            -883.6720942848567, 
+                            -763.327921278096
+                        ]
+                    }, 
+                    "img": "Buggy/F1F/F1F74D0C050C33D28FF1D0D52BBFC1B3/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "F1F"
+                }, 
+                "F2FB0087DFB04A49443EEA5B77758D9A": {
+                    "coord": {
+                        "tSNE": [
+                            569.6807298654332, 
+                            -1434.1000583152588
+                        ]
+                    }, 
+                    "img": "Buggy/F2F/F2FB0087DFB04A49443EEA5B77758D9A/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "F2F"
+                }, 
+                "F559ECA19B72A0BEAFB9E86225AE7A56": {
+                    "coord": {
+                        "tSNE": [
+                            -773.8297925543256, 
+                            844.7629959055979
+                        ]
+                    }, 
+                    "img": "Buggy/F55/F559ECA19B72A0BEAFB9E86225AE7A56/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "F55"
+                }, 
+                "FACA4EC545BB809E02B4108FB9B92113": {
+                    "coord": {
+                        "tSNE": [
+                            -1288.6644177218386, 
+                            -1551.1823467352026
+                        ]
+                    }, 
+                    "img": "Buggy/FAC/FACA4EC545BB809E02B4108FB9B92113/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "FAC"
+                }, 
+                "FD2A4390985C9B598E00C951458FAB46": {
+                    "coord": {
+                        "tSNE": [
+                            -481.12985979098977, 
+                            -343.83057437494944
+                        ]
+                    }, 
+                    "img": "Buggy/FD2/FD2A4390985C9B598E00C951458FAB46/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "FD2"
+                }, 
+                "FE6B619167AAB1CAABA3C0EB1E926CC5": {
+                    "coord": {
+                        "tSNE": [
+                            -943.3299851637909, 
+                            764.4169098864298
+                        ]
+                    }, 
+                    "img": "Buggy/FE6/FE6B619167AAB1CAABA3C0EB1E926CC5/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "FE6"
+                }, 
+                "FE885DD43105E05C4BA9C12942DC8424": {
+                    "coord": {
+                        "tSNE": [
+                            811.8709705547618, 
+                            1418.1470310155516
+                        ]
+                    }, 
+                    "img": "Buggy/FE8/FE885DD43105E05C4BA9C12942DC8424/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "FE8"
+                }, 
+                "FEECE4B2E78A4A9297A42634D162EA25": {
+                    "coord": {
+                        "tSNE": [
+                            1070.0922482588142, 
+                            1306.9148553704213
+                        ]
+                    }, 
+                    "img": "Buggy/FEE/FEECE4B2E78A4A9297A42634D162EA25/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "FEE"
+                }, 
+                "FFBA6DBC4968D18A06E2B0AB1624979C": {
+                    "coord": {
+                        "tSNE": [
+                            -371.6869119740967, 
+                            -367.0009501016798
+                        ]
+                    }, 
+                    "img": "Buggy/FFB/FFBA6DBC4968D18A06E2B0AB1624979C/small_icon/snap_t0045_p0036.png", 
+                    "level": 0, 
+                    "name": "FFB"
+                }
+            }
+        }
+    }, 
+    "version": 0.9
+}

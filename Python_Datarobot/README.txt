@@ -1,0 +1,2 @@
+This project aims to manipulate the external Machine Learning package 'DataRobot' via their APIs.
+With this project, we can train and calibrate plenty of machine models, in order to tune the best one.
