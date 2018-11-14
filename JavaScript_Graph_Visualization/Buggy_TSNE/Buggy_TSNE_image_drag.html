@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buggy_TSNE</title>
+    <script></script>
+</head>
+
+<style>
+    .axis path,
+    .axis line {
+        fill : none;
+        stroke : black;
+        shape-rendering : crispEdges;
+    }
+
+    .axis text {
+        font-family : sans-serif;
+        font-size : 11px;
+    }
+
+    .MyText {
+        fill : white;
+        text-anchor : middle;
+    }
+
+    .tooltip{
+        font-family: Arial;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+
+    .active {
+        stroke: #000;
+        stroke-width: 2px;
+    }
+
+
+
+
+</style>
+
+<body>
+    <script src="//d3js.org/d3.v4.min.js" charset="utf-8"></script>
+    <script>
+
+        var width = 1500;
+        var height = 800;
+        var image_width = 50;
+        var image_height = 50;
+
+        var zoom = d3.behavior.zoom()
+            .scaleExtent([1, 10])
+            .on("zoom", zoomed);
+
+        var drag = d3.behavior.drag()
+            .on("dragstart", dragstarted)
+            .on("drag", dragged)
+            .on("dragend",dragended);
+
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width",window.innerWidth)
+            .attr("height",window.innerHeight)
+            .call(zoom);
+
+        var extend_group = svg.append("g")
+            .call(zoom);
+
+        d3.json("Buggy_TSNE_image.json",
+            function(json){
+                var padding ={left:30, right:30, top:20, bottom:20};
+
+                var dataset1=[]; var dataset2=[]; var dataset=[];
+
+                for (var i = 0; i<json.graphs._ALL.nodes.length; i++) {
+                    dataset1[i] = json.graphs._ALL.nodes[i].coord.tSNE[0];
+                    dataset2[i] = json.graphs._ALL.nodes[i].coord.tSNE[1];
+                    dataset[i] = json.graphs._ALL.nodes[i];
+                }
+
+                /*var dataset1 = [10, 20, 30, 40, 33, 24, 12, 5];
+                 var dataset2 = [20, 30, 40, 50, 60, 70, 80, 90];
+                 var dataset = [];
+                 for (var i = 0; i<dataset1.length;i++){
+                 dataset[i]=[dataset1[i],dataset2[i]];*/
+
+
+                var xScale = d3.scale.linear()
+                    .domain([d3.min(dataset1),d3.max(dataset1)])
+                    .range([0,width-padding.left-padding.right]);
+
+                var yScale = d3.scale.linear()
+                    .domain([d3.min(dataset2),d3.max(dataset2)])
+                    .range([height-padding.top-padding.bottom, 0]);
+
+                var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom");
+
+                var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left");
+
+                //add axis x
+                extend_group.append("g")
+                    .attr("class","axis")
+                    .attr("transform","translate(" + (padding.left+200) + "," + (height - padding.bottom+50-(height-padding.top-padding.bottom-yScale(0))) + ")")
+                    .call(xAxis);
+
+                //add axis y
+                extend_group.append("g")
+                    .attr("class","axis")
+                    .attr("transform","translate(" + (padding.left+200+xScale(0)) + "," + (padding.top+50) + ")")
+                    .call(yAxis);
+
+                var tooltip = d3.select("body")
+                    .append("div")
+                    .attr("class", "tooltip")
+                    .style("opacity", 0.0);
+
+                var images = extend_group.selectAll("image")
+                    .data(dataset)
+                    .enter()
+                    .append("image")
+                    .attr("transform","translate(" + (padding.left+200) + ", " + (padding.top+50) +")")
+                    .attr("x",function(d,i){
+                        /*return xScale(0)-image_width/2;*/
+                        return xScale(d.coord.tSNE[0])-image_width/2;
+                    })
+                    .attr("y",function(d,i){
+                        /*return yScale(0)-image_height/2;*/
+                        return yScale(d.coord.tSNE[1])-image_height/2;
+                    })
+                    .attr("width",image_width)
+                    .attr("height",image_height)
+                    .attr("xlink:href",function(d,i){
+                        return d.img;
+                    });
+                    /*.call(drag);*/
+
+                    /*.on("mouseover",function(d){
+                        tooltip.html(" &nbsp tSNE-x: " + d.coord.tSNE[0] + "&nbsp" + "<br />" + " &nbsp tSNE-y: " + d.coord.tSNE[1] + "&nbsp")
+                            .style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY + 20) + "px")
+                            .style("opacity", 0.8);
+                    })
+                    .on("mousemove", function(d){
+                        tooltip.style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY + 20) + "px");
+                    })
+                    .on("mouseout", function(d){
+                        tooltip.style("opacity", 0.0);
+                    })*/
+
+
+                function dragstarted(d) {
+                    d3.select(this).raise().classed("active", true);
+                }
+
+                function dragged(d) {
+                    d3.select(this).attr("x", d.coord.tSNE[0]=d3.event.x).attr("y", d.coord.tSNE[1]=d3.event.y);
+                }
+
+                function dragended(d) {
+                    d3.select(this).classed("active", false);
+                }
+
+
+                    /*.on("click", function(d){
+                        d.dx=d.coord.tSNE[0];
+                        d.dy=d.coord.tSNE[1];
+                        d3.select(this)
+                            .attr("transform","translate("+ d.dx +", "+ d.dy +")");
+                    })*/
+
+                    /*.transition()
+                    .delay(function(d,i){
+                        return i * 50;
+                    })
+                    .duration(2000)
+                    .ease("bounce")
+                    .attr("x",function(d){
+                        return xScale(d.coord.tSNE[0])-image_width/2;
+                    })
+                    .attr("y",function(d){
+                        return yScale(d.coord.tSNE[1])-image_height/2;
+                    });*/
+
+
+
+            });
+
+        function zoomed(){
+            d3.select(this).attr(
+                "transform",/*"translate("+ d3.event.translate +")*/"scale("+ d3.event.scale +")");
+        }
+
+
+    </script>
+
+</body>
+</html>

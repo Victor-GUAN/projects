@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buggy_TSNE</title>
+    <script></script>
+</head>
+
+<style>
+    .axis path,
+    .axis line {
+        fill : none;
+        stroke : black;
+        shape-rendering : crispEdges;
+    }
+
+    .axis text {
+        font-family : sans-serif;
+        font-size : 11px;
+    }
+
+    .MyText {
+        fill : white;
+        text-anchor : middle;
+    }
+
+    .tooltip{
+        font-family: Arial;
+        font-size: 14px;
+        width: auto;
+        height: auto;
+        position: absolute;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+    }
+
+
+</style>
+
+<body>
+    <script src="d3.v3.min.js" charset="utf-8"></script>
+    <script>
+
+        var width = 1500;
+        var height = 800;
+        var image_width = 50;
+        var image_height = 50;
+
+        var zoom = d3.behavior.zoom()
+            .scaleExtent([1, 10])
+            .on("zoom", zoomed);
+
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width",window.innerWidth)
+            .attr("height",window.innerHeight)
+            .call(zoom);
+
+        var extend_group = svg.append("g")
+            .call(zoom);
+
+        d3.json("Buggy_TSNE_graph.json_version_0.9_iter_firefox.json",
+            function(json){
+
+                var padding ={left:30, right:30, top:20, bottom:20};
+
+                var dataset1=[]; var dataset2=[]; var dataset=[];
+
+                for (var i = 0; i<json.graphs._ALL.nodes.length; i++) {
+                    dataset1[i] = json.graphs.iter400.nodes[i].coord.tSNE[0];
+                    dataset2[i] = json.graphs.iter400.nodes[i].coord.tSNE[1];
+                    dataset[i] = {
+                        "img" : json.graphs._ALL.nodes[i].img,
+                        "iter_0" : [json.graphs.iter0.nodes[i].coord.tSNE[0],json.graphs.iter0.nodes[i].coord.tSNE[1]],
+                        "iter_50" : [json.graphs.iter50.nodes[i].coord.tSNE[0],json.graphs.iter50.nodes[i].coord.tSNE[1]],
+                        "iter_100" : [json.graphs.iter100.nodes[i].coord.tSNE[0],json.graphs.iter100.nodes[i].coord.tSNE[1]],
+                        "iter_150" : [json.graphs.iter150.nodes[i].coord.tSNE[0],json.graphs.iter150.nodes[i].coord.tSNE[1]],
+                        "iter_200" : [json.graphs.iter200.nodes[i].coord.tSNE[0],json.graphs.iter200.nodes[i].coord.tSNE[1]],
+                        "iter_250" : [json.graphs.iter250.nodes[i].coord.tSNE[0],json.graphs.iter250.nodes[i].coord.tSNE[1]],
+                        "iter_300" : [json.graphs.iter300.nodes[i].coord.tSNE[0],json.graphs.iter300.nodes[i].coord.tSNE[1]],
+                        "iter_350" : [json.graphs.iter350.nodes[i].coord.tSNE[0],json.graphs.iter350.nodes[i].coord.tSNE[1]],
+                        "iter_400" : [json.graphs.iter400.nodes[i].coord.tSNE[0],json.graphs.iter400.nodes[i].coord.tSNE[1]]
+                    }
+                }
+
+                var xScale = d3.scale.linear()
+                    .domain([d3.min(dataset1),d3.max(dataset1)])
+                    .range([0 + 50,window.innerWidth-padding.left-padding.right - 50]);
+
+                var yScale = d3.scale.linear()
+                    .domain([d3.min(dataset2),d3.max(dataset2)])
+                    .range([window.innerHeight-padding.top-padding.bottom - 50, 0 + 50]);
+
+                var xAxis = d3.svg.axis()
+                    .scale(xScale)
+                    .orient("bottom");
+
+                var yAxis = d3.svg.axis()
+                    .scale(yScale)
+                    .orient("left");
+
+                //add axis x
+                extend_group.append("g")
+                    .attr("class","axis")
+                    .attr("transform","translate(" + (padding.left) + "," + (height - padding.bottom-10-(height-padding.top-padding.bottom-yScale(0))) + ")")
+                    .call(xAxis);
+
+                //add axis y
+                extend_group.append("g")
+                    .attr("class","axis")
+                    .attr("transform","translate(" + (padding.left+xScale(0)) + "," + (padding.top-10) + ")")
+                    .call(yAxis);
+
+                var tooltip = d3.select("body")
+                    .append("div")
+                    .attr("class", "tooltip")
+                    .style("opacity", 0.0);
+
+                var images = extend_group.selectAll("image")
+                    .data(dataset)
+                    .enter()
+                    .append("image")
+                    .attr("transform","translate(" + (padding.left) + ", " + (padding.top-10) +")")
+                    .attr("x",function(d,i){
+                        return xScale(d.iter_0[0])-image_width/2;
+                    })
+                    .attr("y",function(d,i){
+                        return yScale(d.iter_0[1])-image_height/2;
+                    })
+                    .attr("width",image_width)
+                    .attr("height",image_height)
+                    .attr("xlink:href",function(d,i){
+                        return d.img;
+                    })
+
+                    .on("mouseover",function(d){
+                        tooltip.html(" &nbsp tSNE-x: " + d.iter_400[0] + "&nbsp" + "<br />" + " &nbsp tSNE-y: " + d.iter_400[1] + "&nbsp")
+                            .style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY + 20) + "px")
+                            .style("opacity", 0.8);
+                    })
+                    .on("mousemove", function(d){
+                        tooltip.style("left", (d3.event.pageX) + "px")
+                            .style("top", (d3.event.pageY + 20) + "px");
+                    })
+                    .on("mouseout", function(d){
+                        tooltip.style("opacity", 0.0);
+                    });
+
+
+                var j = 0;
+                step0();
+
+                function step0(){
+                    j = j +1;
+                    if (j<=2) {
+                        images
+                            .attr("x", function (d, i) {
+                                return xScale(eval("d.iter_" + 50 * (j) + "[0]")) - image_width / 2;
+                            })
+                            .attr("y", function (d, i) {
+                                return yScale(eval("d.iter_" + 50 * (j) + "[1]")) - image_height / 2;
+                            })
+                            .transition()
+                            .delay(function (d, i) {
+                                return 50;
+                            })
+                            .duration(2000)
+                            .attr("x", function (d) {
+                                return xScale(eval("d.iter_" + 50 * (j + 1) + "[0]")) - image_width / 2;
+                            })
+                            .attr("y", function (d) {
+                                return yScale(eval("d.iter_" + 50 * (j + 1) + "[1]")) - image_height / 2;
+                            })
+                            .each("end", step0);
+                        }
+                    }
+
+
+                /*function step1(){
+                    images
+                        .attr("x",function(d,i){
+                            return xScale(eval("d.iter_" + 50*(2) + "[0]"))-image_width/2;
+                        })
+                        .attr("y",function(d,i){
+                            return yScale(eval("d.iter_" + 50*(2) + "[1]"))-image_height/2;
+                        })
+                        .transition()
+                        .delay(function (d, i) {
+                            return 50;
+                        })
+                        .duration(2000)
+                        .attr("x", function (d) {
+                            return xScale(eval("d.iter_" + 50*3 + "[0]")) - image_width / 2;
+                        })
+                        .attr("y", function (d) {
+                            return yScale(eval("d.iter_" + 50*3 + "[1]")) - image_height / 2;
+                        })
+                        .each("end", step0);
+                }*/
+
+
+
+            });
+
+        function zoomed(){
+            d3.select(this).attr(
+                "transform","translate("+ d3.event.translate +")scale("+ d3.event.scale +")");
+        }
+
+    </script>
+
+</body>
+</html>
