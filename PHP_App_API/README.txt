@@ -1,0 +1,2 @@
+This project aims to realize an API to a mobile application. Using this API, we can connect to the server of the Academic affairs office of the university,
+and then students can search and get their notes or results of the exams automatically via their smartphones.

@@ -1,0 +1,1 @@
+This project aims to use R to analyze some statistical properties for the given dataset.

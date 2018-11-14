@@ -1,0 +1,157 @@
+<?php
+/**
+  * wechat php test
+  */
+
+//define your token
+define("TOKEN", "weixin");
+$wechatObj = new wechatCallbackapiTest();
+//$wechatObj->valid();
+$wechatObj->responseMsg();
+class wechatCallbackapiTest
+{
+	public function valid()
+    {
+        $echoStr = $_GET["echostr"];
+
+        //valid signature , option
+        if($this->checkSignature()){
+        	echo $echoStr;
+        	exit;
+        }
+    }
+
+    public function responseMsg()
+    {
+		//get post data, May be due to the different environments
+		$postStr = $GLOBALS["HTTP_RAW_POST_DATA"];
+
+      	//extract post data
+		if (!empty($postStr)){
+                /* libxml_disable_entity_loader is to prevent XML eXternal Entity Injection,
+                   the best way is to check the validity of xml by yourself */
+                //libxml_disable_entity_loader(true);
+              	$postObj = simplexml_load_string($postStr, 'SimpleXMLElement', LIBXML_NOCDATA);
+                $fromUsername = $postObj->FromUserName;
+                $toUsername = $postObj->ToUserName;
+				$type = $postObj->MsgType;
+				$customevent = $postObj->Event;
+				$latitude = $postObj->Location_X;
+				$longtitude = $postObj->Location_Y;				
+                $keyword = trim($postObj->Content);
+                $time = time();
+                $textTpl = "<xml>
+							<ToUserName><![CDATA[%s]]></ToUserName>
+							<FromUserName><![CDATA[%s]]></FromUserName>
+							<CreateTime>%s</CreateTime>
+							<MsgType><![CDATA[text]]></MsgType>
+							<Content>%s</Content>
+							<FuncFlag>0</FuncFlag>
+							</xml>";    
+				switch ($type)
+				{	case "event";
+				if ($customevent=="subscribe")
+					{$contentStr = "感谢您的关注，请输入“1”查询相关成绩";}
+				break;
+				case "image";
+				$contentStr = "暂不支持图片解析功能，请输入正确信息";
+				break;
+				case "link";
+				$contentStr = "暂不支持超链接解析功能，请输入正确信息";
+				case "text";
+					switch($keyword)
+					{
+						case "1";
+						$contentStr = "现在可以查询2014-2015学年第一学期成绩，请输入“学号+身份证号”，例：13241XXX+18位身份证号 \n 注：若证件号中有X，均为大写。";
+						break;
+						default;
+						include("conn.php");
+						$sql = "SELECT * FROM `weixin` WHERE `title` LIKE '%{$keyword}%' LIMIT 0 , 30";
+						$query=mysql_query($sql);
+						$rs=mysql_fetch_array($query);
+						$contentStr=$rs['content1']."\n".
+                            		$rs['content2']."\n".
+                            		$rs['content3']."\n".
+                            		$rs['content4']."\n".
+                            		$rs['content5']."\n".
+                            		$rs['content6']."\n".
+                            		$rs['content7']."\n".
+                            		$rs['content8']."\n".
+                            		$rs['content9']."\n".
+                            		$rs['content10']."\n".
+                            		$rs['content11']."\n".
+                         			$rs['content12']."\n".   
+                         			$rs['content13']."\n".   
+                          			$rs['content14']."\n".  
+                         			$rs['content15']."\n".   
+                         			$rs['content16']."\n".   
+                         			$rs['content17']."\n".   
+                          			$rs['content18']."\n". 
+                           			$rs['content19']."\n". 
+                            		$rs['content20']."\n".
+                                	$rs['content21']."\n".
+                           			$rs['content22']."\n". 
+                            		$rs['content23']."\n".
+                         			$rs['content24']."\n".   
+                            		$rs['content25']."\n".
+                            		$rs['content26']."\n".
+                            		$rs['content27']."\n".
+                            		$rs['content28']."\n".
+                            		$rs['content29']."\n".
+                          			$rs['content30']."\n".  
+                            		$rs['content31']."\n".
+                            		$rs['content32']."\n".
+                            		$rs['content33']."\n".
+                            		$rs['content34']."\n".
+                            		$rs['content35']."\n".
+                            		$rs['content36']."\n".
+                            		$rs['content37']."\n".
+                            		$rs['content38']."\n".
+                            		$rs['content39']."\n".
+                           			$rs['content40']."\n". 
+                                	$rs['content41']."\n";
+                            
+						
+						mysql_close($conn);
+					}
+					break;
+					default;
+					$contentStr ="请输入正确信息";
+					}
+					$resultStr = sprintf($textTpl, $fromUsername, $toUsername, $time, $contentStr);						
+					echo $resultStr;
+					
+					
+        }else {
+        	echo "";
+        	exit;
+        }
+    }
+		
+	private function checkSignature()
+	{
+        // you must define TOKEN by yourself
+        if (!defined("TOKEN")) {
+            throw new Exception('TOKEN is not defined!');
+        }
+        
+        $signature = $_GET["signature"];
+        $timestamp = $_GET["timestamp"];
+        $nonce = $_GET["nonce"];
+        		
+		$token = TOKEN;
+		$tmpArr = array($token, $timestamp, $nonce);
+        // use SORT_STRING rule
+		sort($tmpArr, SORT_STRING);
+		$tmpStr = implode( $tmpArr );
+		$tmpStr = sha1( $tmpStr );
+		
+		if( $tmpStr == $signature ){
+			return true;
+		}else{
+			return false;
+		}
+	}
+}
+
+?>

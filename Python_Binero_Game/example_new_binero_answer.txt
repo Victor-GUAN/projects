@@ -1,0 +1,10 @@
+c
+c example_new_binero_answer.txt
+c
+binero 6 6
+0 . 0 1 0 .
+0 0 . 1 . 1
+. 1 0 0 1 .
+0 . . 0 . 1
+. 0 1 1 . .
+. 0 1 0 1 .
