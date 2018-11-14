@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="d3.v3.min.js" charset="utf-8"></script>
+<script src="jquery.min.js"></script>
+<script>
+    mydata = {"msg": "Hello Flask."};          // 要传输的数据
+    $.getJSON('/dataconvector', {              // Flask中获取数据的function的url
+            mykey: JSON.stringify(mydata)      // 定义一个keyword, 将数据stringify
+        }, function(data) {                    // 从Flask返回的数据
+            console.log(data.result);
+            $( "#result" ).text(data.result);
+        }
+    );
+
+</script>
+</body>
+</html>

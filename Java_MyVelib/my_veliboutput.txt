@@ -1,0 +1,2 @@
+A plan has been constructed, which has name "myplan" and consists of 9 stations each of which has 10 electronic and 10 mechanical parking slots and such that stations are arranged on a square grid whose of side 4km and initially populated with a 70% bikes randomly distributed over the 9 stations.
+Reading of the file: my_velib.ini and Writing of the file: my_veliboutput.txt have been finished!

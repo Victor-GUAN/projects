@@ -1,0 +1,55 @@
+A plan has been constructed, which has name "myplan" and consists of 4 stations each of which has 10 electronic and 10 mechanical parking slots and such that stations are arranged on a square grid whose of side 2.0km and initially populated with a 0% bikes randomly distributed over the 4 stations.
+A user nameduser1has been added to the plan myplan. They holds a velib card of type vlibre, and their location is x:0.5, y: 0.5
+A user nameduser2has been added to the plan myplan. They holds a velib card of type vmax, and their location is x:2.0, y: 1.0
+user - the routine shown: Routine [start=[3.0, 3.0], end=[2.0, 3.0], source=Station [position=[2.0, 2.0], state=true, id=4, type=standard], destination=Station [position=[2.0, 2.0], state=true, id=4, type=standard]]
+Station standard 4 successfully added the user user 1
+Station standard 4 successfully added the user user 1
+The routine best suited to the sort policy and the chosen destination: Routine [start=[3.0, 3.0], end=[2.0, 3.0], source=Station [position=[2.0, 2.0], state=true, id=4, type=standard], destination=Station [position=[2.0, 2.0], state=true, id=4, type=standard]]
+{2.0=Station [position=[2.0, 2.0], state=true, id=4, type=standard], 10.0=Station [position=[2.0, 0.0], state=true, id=3, type=plus], 18.0=Station [position=[0.0, 0.0], state=true, id=1, type=plus]}
+{1.0=Station [position=[2.0, 2.0], state=true, id=4, type=standard], 5.0=Station [position=[0.0, 2.0], state=true, id=2, type=standard], 9.0=Station [position=[2.0, 0.0], state=true, id=3, type=plus], 13.0=Station [position=[0.0, 0.0], state=true, id=1, type=plus]}
+null
+user1 - the routine shown: Routine [start=[0.5, 0.5], end=[0.5, 4.0], source=Station [position=[0.0, 0.0], state=true, id=1, type=plus], destination=Station [position=[0.0, 2.0], state=true, id=2, type=standard]]
+Station plus 1 successfully added the user user1 2
+Station standard 2 successfully added the user user1 2
+The routine best suited to the sort policy and the chosen destination: Routine [start=[0.5, 0.5], end=[0.5, 4.0], source=Station [position=[0.0, 0.0], state=true, id=1, type=plus], destination=Station [position=[0.0, 2.0], state=true, id=2, type=standard]]
+{0.5=Station [position=[0.0, 0.0], state=true, id=1, type=plus], 2.5=Station [position=[2.0, 0.0], state=true, id=3, type=plus], 4.5=Station [position=[2.0, 2.0], state=true, id=4, type=standard]}
+{4.25=Station [position=[0.0, 2.0], state=true, id=2, type=standard], 6.25=Station [position=[2.0, 2.0], state=true, id=4, type=standard], 16.25=Station [position=[0.0, 0.0], state=true, id=1, type=plus], 18.25=Station [position=[2.0, 0.0], state=true, id=3, type=plus]}
+null
+The info in the network
+Station plus 1 successfully added the user user 1
+Station State: true
+Station Id: 1
+Station Type: plus
+Station Position: 0.0 0.0
+Mech Slots Available: 5
+Elec Slots Available: 5
+Mech Bicycles Available: 5
+Elec Bicycles Available: 5
+Station standard 2 successfully added the user user 1
+Station State: true
+Station Id: 2
+Station Type: standard
+Station Position: 0.0 2.0
+Mech Slots Available: 5
+Elec Slots Available: 5
+Mech Bicycles Available: 5
+Elec Bicycles Available: 5
+Station plus 3 successfully added the user user 1
+Station State: true
+Station Id: 3
+Station Type: plus
+Station Position: 2.0 0.0
+Mech Slots Available: 5
+Elec Slots Available: 5
+Mech Bicycles Available: 5
+Elec Bicycles Available: 5
+Station standard 4 successfully added the user user 1
+Station State: true
+Station Id: 4
+Station Type: standard
+Station Position: 2.0 2.0
+Mech Slots Available: 5
+Elec Slots Available: 5
+Mech Bicycles Available: 5
+Elec Bicycles Available: 5
+Reading of the file: testScenario3.txt and Writing of the file: testScenario3output.txt have been finished!

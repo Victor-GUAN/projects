@@ -1,0 +1,11 @@
+setup <myplan>
+addUser <user1> <vmax> <myplan> <1> <1>
+addUser <user2> <vlibre> <myplan> <2> <2>
+offline <myplan> <3> <1>
+online <myplan> <3> <2>
+rentBike <1> <2> <mechanical>
+returnBike <1> <6> <10>
+rentBike <2> <3> <electronic>
+returnBike <2> <8> <20>
+displayStation <6> <15>
+displayStation <8> <15>

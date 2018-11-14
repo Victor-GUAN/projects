@@ -1,0 +1,43 @@
+A plan has been constructed, which has name "mynetwork" and consists of 5 stations each of which has 10 electronic and 10 mechanical parking slots and such that stations are arranged on a square grid whose of side 3.0km and initially populated with a 0% bikes randomly distributed over the 5 stations.
+A user nameduserhas been added to the plan mynetwork. They holds a velib card of type vlibre, and their location is x:0.5, y: 0.5
+The station of ID: 1 in the plan myplan has been set offline at time unit: 0.5
+The station of ID: 1 in the plan myplan has been set online at time unit: 3.0
+user - the routine shown: Routine [start=[0.5, 0.5], end=[3.5, 4.0], source=Station [position=[0.0, 0.0], state=true, id=1, type=plus], destination=Station [position=[3.0, 3.0], state=true, id=4, type=standard]]
+Station plus 1 successfully added the user user 1
+Station standard 4 successfully added the user user 1
+The routine best suited to the sort policy and the chosen destination: Routine [start=[0.5, 0.5], end=[3.5, 4.0], source=Station [position=[0.0, 0.0], state=true, id=1, type=plus], destination=Station [position=[3.0, 3.0], state=true, id=4, type=standard]]
+{0.5=Station [position=[0.0, 0.0], state=true, id=1, type=plus], 6.5=Station [position=[3.0, 0.0], state=true, id=3, type=plus], 12.5=Station [position=[3.0, 3.0], state=true, id=4, type=standard], 30.5=Station [position=[6.0, 0.0], state=true, id=5, type=plus]}
+{1.25=Station [position=[3.0, 3.0], state=true, id=4, type=standard], 13.25=Station [position=[0.0, 3.0], state=true, id=2, type=standard], 16.25=Station [position=[3.0, 0.0], state=true, id=3, type=plus], 22.25=Station [position=[6.0, 0.0], state=true, id=5, type=plus], 28.25=Station [position=[0.0, 0.0], state=true, id=1, type=plus]}
+null
+Station plus 1 successfully added the user user 1
+Station plus 1 successfully removed the user user 1
+A bike of type: electronic has been successfully rent by the user of ID: 1 at the station of ID: 1
+Station standard 4 successfully added the user user 1
+Station standard 4 successfully removed the user user 1
+user Credits remaining: 0.0
+user PAY: 0.38890872965260115
+The bike used by the user of ID: 1 has been successfully returned at the station of ID: 4, at the time unit: 9.0
+The payment has been automatically taken above
+Station plus 1 successfully added the user user 1
+Station State: true
+Station Id: 1
+Station Type: plus
+Station Position: 0.0 0.0
+Mech Slots Available: 4
+Elec Slots Available: 5
+Mech Bicycles Available: 6
+Elec Bicycles Available: 5
+The occupation rate of elec bikes for Station 1: 0.5
+The occupation rate of mech bikes for Station 1: 0.6
+Station standard 4 successfully added the user user 1
+Station State: true
+Station Id: 4
+Station Type: standard
+Station Position: 3.0 3.0
+Mech Slots Available: 4
+Elec Slots Available: 3
+Mech Bicycles Available: 6
+Elec Bicycles Available: 7
+The occupation rate of elec bikes for Station 4: 0.63
+The occupation rate of mech bikes for Station 4: 0.54
+Reading of the file: testScenario2.txt and Writing of the file: testScenario2output.txt have been finished!

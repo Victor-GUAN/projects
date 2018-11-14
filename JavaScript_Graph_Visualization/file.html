@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<img id="image" src=""/>
+<br/>
+<input type="file" onchange="selectImage(this);"/>
+<br/>
+<script>
+    var image = '';
+    function selectImage(file) {
+
+        var reader = new FileReader();
+        reader.onload = function (evt) {
+            document.getElementById('image').src = evt.target.result;
+            console.log(evt);
+            console.log(evt.target);
+            console.log(evt.target.result);
+            image = evt.target.result;
+            console.log(image);
+
+        };
+        reader.readAsDataURL(file.files[0]);
+    }
+
+</script>
+<script>
+    setTimeout(console.log(document.getElementById(('image'.src))),10000)
+</script>
+</body>
+</html>

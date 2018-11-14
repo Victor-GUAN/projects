@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script type="text/javascript" src="https://d3js.org/d3.v3.min.js"></script>
+    <style type="text/css">
+        #container {
+            height: 200px;
+            width: 150px;
+            border:2px solid #000;
+            overflow: scroll;
+        }
+    </style>
+    <title>Title</title>
+
+</head>
+<body>
+<script type="text/javascript">
+
+    var container = d3.select("body").append("div").attr("id", "container");
+    window.onload=function(){
+
+        var rectangle = container.append("svg")
+            .attr("viewBox", "0,0,150,420")
+            .append("rect")
+            .attr("width", 150)
+            .attr("height", 420)
+            .attr("fill", "white")
+            .attr("x", 0)
+            .attr("y", 0);
+    };
+    var objTo = document.getElementById('container');
+
+
+    window.onload=function create_button(){
+        for (let k = 0; k < 5; k++){
+            var bt = document.createElement("input");
+            bt.type = "button";
+            bt.id = "iter_" + k;
+            bt.value = "iter" + k;
+            /*bt.onclick  = a[k];*/
+            /*document.body.appendChild(bt);*/
+            objTo.appendChild(bt);
+
+        }
+    };
+
+    console.log(document.getElementById("container"));
+
+    start = function(){
+        setTimeout(function(){alert("too")},2000);
+    }
+</script>
+
+<input type="button" onclick="start()">
+
+</body>
+</html>

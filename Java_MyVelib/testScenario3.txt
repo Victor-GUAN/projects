@@ -1,0 +1,8 @@
+setup <myplan> <4> <10> <2> <5>
+addUser <user1> <vlibre> <myplan> <0.5> <0.5>
+addUser <user2> <vmax> <myplan> <2> <1>
+findRoutine <2> <3> <shortest> <mechanical> <1>
+findRoutine <0.5> <4> <prefer_plus> <electronic> <2>
+display
+
+

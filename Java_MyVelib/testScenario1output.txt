@@ -1,0 +1,46 @@
+A plan has been constructed, which has name "myplan" and consists of 9 stations each of which has 10 electronic and 10 mechanical parking slots and such that stations are arranged on a square grid whose of side 4km and initially populated with a 70% bikes randomly distributed over the 9 stations.
+A user nameduser1has been added to the plan myplan. They holds a velib card of type vmax, and their location is x:1.0, y: 1.0
+A user nameduser2has been added to the plan myplan. They holds a velib card of type vlibre, and their location is x:2.0, y: 2.0
+The station of ID: 3 in the plan myplan has been set offline at time unit: 1.0
+The station of ID: 3 in the plan myplan has been set online at time unit: 2.0
+Station standard 2 successfully added the user user1 1
+Station standard 2 successfully removed the user user1 1
+A bike of type: mechanical has been successfully rent by the user of ID: 1 at the station of ID: 2
+Station standard 6 successfully added the user user1 1
+Station standard 6 successfully removed the user user1 1
+user1 Credits remaining: 0.0
+user1 PAY: 0.16769303167492033
+The bike used by the user of ID: 1 has been successfully returned at the station of ID: 6, at the time unit: 10.0
+The payment has been automatically taken above
+Station plus 3 successfully added the user user2 2
+Station plus 3 successfully removed the user user2 2
+A bike of type: electronic has been successfully rent by the user of ID: 2 at the station of ID: 3
+Station standard 8 successfully added the user user2 2
+Station standard 8 successfully removed the user user2 2
+user2 Credits remaining: 0.0
+user2 PAY: 3.0567048511682957
+The bike used by the user of ID: 2 has been successfully returned at the station of ID: 8, at the time unit: 20.0
+The payment has been automatically taken above
+Station standard 6 successfully added the user user1 1
+Station State: true
+Station Id: 6
+Station Type: standard
+Station Position: 4.0 8.0
+Mech Slots Available: 2
+Elec Slots Available: 3
+Mech Bicycles Available: 8
+Elec Bicycles Available: 7
+The occupation rate of elec bikes for Station 6: 0.7
+The occupation rate of mech bikes for Station 6: 0.8
+Station standard 8 successfully added the user user1 1
+Station State: true
+Station Id: 8
+Station Type: standard
+Station Position: 8.0 4.0
+Mech Slots Available: 3
+Elec Slots Available: 2
+Mech Bicycles Available: 7
+Elec Bicycles Available: 8
+The occupation rate of elec bikes for Station 8: 0.8
+The occupation rate of mech bikes for Station 8: 0.7
+Reading of the file: testScenario1.txt and Writing of the file: testScenario1output.txt have been finished!
